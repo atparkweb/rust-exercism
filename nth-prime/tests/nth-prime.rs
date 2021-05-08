@@ -29,12 +29,6 @@ fn test_prime_tester() {
 }
 
 #[test]
-fn test_math() {
-    let result: u32 = (5 as f64).sqrt().round() as u32;
-    assert_eq!(result, 2);
-}
-
-#[test]
 fn test_sixth_prime() {
     assert_eq!(np::nth(5), 13);
 }
